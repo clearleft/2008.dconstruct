@@ -1,0 +1,25 @@
+<?php 
+	$title = "Podcast";
+	$section = "podcasts";
+	include("../includes/header.inc.php"); 
+?>
+
+<div class="container clear">
+	<div class="secondary">
+		<p class="intro">All conference presentations will be podcast soon after the event.</p>
+	</div>
+	<div class="primary">
+		
+		<h3>Podcast</h3>
+
+		<p>All the sessions at dConstruct 2008 will be recorded, and will be delivered via the magic of podcasting.</p>
+		
+		<h4>Transcriptions</h4>
+		
+		<p style="float:left; margin-right:1.5em"><a href="http://opera.com"><img src="/img/sponsors/opera.gif" alt="Opera Software" /></a></p>
+		
+		<p>Transcriptions of the podcast will also be available thanks to the kind sponsorship of Opera Software.</p>
+	</div>
+</div>
+
+<?php include("../includes/footer.inc.php"); ?>

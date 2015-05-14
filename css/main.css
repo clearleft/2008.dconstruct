@@ -1,0 +1,1172 @@
+/* @group General styles */
+/*
+Based on Harmonise v1.1
+Resets styles then adds basic typographical styling
+Initially by Richard Rutter, alterations by Natalie Downe 
+clearleft.com
+*/
+
+/* @group Reset */
+
+/* Based on http://meyerweb.com/eric/tools/css/reset/ */
+/* v1.0 | 20080212 */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+img {
+	border: 0;
+}
+ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+:focus {
+	outline: 0;
+}
+
+/* tables may still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* @end */
+
+
+body {
+	min-width: 760px;
+	max-width: 80em;
+	padding: 0;
+	margin: 0 0;
+	background-color: #F4F4F4;
+	color:#656565;
+	font-family: "helvetica neue", arial, helvetica, sans-serif;
+    font-size:16px;
+    line-height:1.125em; /* Baseline grid of 18px */
+}
+body.home {
+	min-width: 980px;
+}
+a:link, button.link span {
+	color: #2779DC;
+	text-decoration: none;
+}
+a:visited {
+	color: #1D4F95;
+	text-decoration: none;
+}
+a:hover, 
+button.link:hover,
+a:active, 
+a:focus, 
+button.link:focus span, 
+button.link:hover span {
+	color: #72951A; 
+	text-decoration: underline; 
+}
+
+/* @group Font sizes */
+
+/* basic font sizes */
+p, ul, ol, dl, table, address, fieldset, pre, form div {
+	font-size: 0.9375em; /* 15px */  
+}
+
+/* deal with likely (but certainly not all) inherited shrinkage */
+
+ul p, ol p, table p, dl p, ul ul, ol ol, ul ol, ol ul, address p, form div div, form div p, fieldset div, table form div {
+	font-size: 1em;
+}
+
+/* size headings using classic scale of 14, 16, 18, (21), 24 */
+
+h1 {
+	font-size: 1.5em;   /* 24px */
+	line-height: 1.125em;  /* 27px */
+}
+h2 { font-size: 1.1875em;   /* 19px */ }
+h3 { font-size: 1.0em;     /* 16px */ }
+h4 { font-size: 0.875em;   /* 14px */ }
+h5, h6 { font-size: 0.8125em;  /* 13px */ }
+
+h6 {
+ font-weight:normal;
+ text-transform:uppercase;
+ margin-bottom: 0.3em;
+}
+/* @end */
+
+/* @group Margins */
+
+p, ul, ol, dl, address, table, blockquote, pre, fieldset {
+	margin-bottom: 1.385em; /* 18px */
+}
+
+form {
+	margin-bottom: 1.125em; /* 18px */
+}
+
+h1 {
+	margin-top:1.125em;	   /* 27px */
+	margin-bottom: 0.75em; /* 18px */
+}
+
+h2 {
+	margin-top:1.5em;	   /* 27px */
+	margin-bottom: 0.5em;  /* 9px */	
+}
+
+h3 {
+	margin-top:1.6875em;     /* 27px */
+	margin-bottom: 0.5625em; /* 9px */	
+}
+
+h4 {
+	margin-top:1.286em;	   /* 18px */
+	margin-bottom: 0.643em; /* 9px */
+}
+
+ul ul, ol ol, ol ul, ul ol {
+	margin-bottom: 0;
+}
+
+/* @end */
+
+/* @group Lists */
+
+.prose ul, ul.bullets, ul.bullets ul {	/* unordered lists more often DON'T require bullets except in extended bits of writing - use the .prose class or apply directly with .bullets */
+	list-style-type: disc;
+	margin-left: 1.385em; /* 18px */
+	line-height: 1.5;
+}
+
+ol {	/* ordered lists usually DO require bullets */
+	list-style-type: decimal;
+	margin-left: 2.077em; /* 27px */
+}
+
+dt {
+	font-weight: bold;
+	margin-top: 1.385em; /* 18px */
+}
+
+/* @end */
+
+/* @group Tables */
+
+table {
+	border-bottom: 1px solid #666;
+}
+
+caption {
+	font-weight: bold;
+	padding-bottom: 0.643em; /* 9px */
+	font-size:1.077em; /* 14px */
+}
+
+thead th {
+	border-top: 1px solid #666;
+	border-bottom: 3px solid #666;
+	padding-top: 0;
+	padding-bottom: 0.692em; /* 9px */
+}
+
+tbody {
+	border-top: 3px solid #666;	/* not rendered in IE6/7 */
+}
+
+tbody tr th, tbody tr td {
+	border-top: 1px solid #ddd;
+}
+
+th, td {
+	text-align: left;
+	padding: 0.385em 0.692em 0.308em 0.692em; /* 5px 9px 4px 9px */
+}
+
+/* @end */
+
+/* @group Blockquotes */
+
+blockquote {
+	font-style: italic;
+	margin-left: 1.385em; /* 18px */
+	margin-right: 1.385em; /* 18px */
+}
+
+blockquote cite, blockquote em {
+	font-style: normal;
+}
+
+/* @end */
+
+
+
+/* @group Forms */
+
+/* @group Containers */
+
+form .container {
+	margin-bottom: 1.385em; /* 18px */
+}
+
+
+/* @group Fieldsets */
+
+fieldset {
+	border: 1px solid #ccc;
+	padding: 0 1.385em 0.692em 1.385em; /* 9px 18px 0 18px */
+}
+
+legend {
+	font-weight: bold;
+}
+
+form fieldset .container {
+	margin-top: 1.385em; /* 18px */
+	margin-bottom:0;
+	position: relative;
+	top: -0.692em; /* fudge to deal with IE fieldset margin/padding */
+}
+
+/* @end */
+
+/* @end */
+
+/* @group Labels */
+
+label {
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.meta-label {
+	font-weight: bold;
+	margin-bottom: 0;
+}
+
+.multi-container label, 
+.radio-container label, 
+.checkbox-container label {
+	font-weight: normal;
+}
+
+.radio-container label, 
+.checkbox-container label,
+.text-container label,
+.textarea-container label {
+	display: block;
+	margin-bottom: 0.3em;
+}
+
+.compact label {
+	display: inline;
+}
+
+/* @end */
+
+/* @group Meta */
+
+form .help {
+	display: block;
+	color: #777;
+	font-style: normal;
+	font-size: 0.846em; /* 11px */
+}
+
+/* @end */
+
+/* @group Form controls */
+
+input, textarea, select, button {
+	font-family: inherit;
+	font-size: 1em;
+}
+button {
+	background-color: #2779DC;
+	color: white;
+	font-weight: bold;
+	border-color: #2779DC;
+	border-width: 1px;
+}
+textarea, input[type='text'], 
+input[type='password'], select {
+	border-width: 1px;
+	border-style: solid;
+	border-top-color: #999;
+	border-left-color: #999;
+	border-bottom-color: #ccc;
+	border-right-color: #ccc;
+	padding: 0 1px 1px 1px;
+}
+
+textarea:focus, input[type='text']:focus, 
+input[type='password']:focus, select:focus {
+	border-color: #888;
+}
+
+input.short {
+	width: 4em;
+}
+
+input.medium, textarea.medium {
+	width: 12em;
+}
+
+input.long, textarea.long {
+	width: 30em;
+}
+
+textarea {
+	width: 99%;
+	display: block;
+}
+
+.button-container input {
+	font-weight: bold;
+}
+
+.button-container input.cancel {
+	font-weight: normal;
+}
+
+button.link {
+	border: 0;
+	padding: 0;
+	background-color: #fff;
+	font-weight: normal;
+	cursor: pointer;
+	width: auto;
+	overflow: visible;
+}
+
+/* accessability feature, resize check and radio inputs */
+.radio-container input, 
+.checkbox-container input {
+	width: 1em;
+	height: 1em;
+}
+
+/* @end */
+
+/* @end */
+
+/* @group Other styling */
+
+address {
+	font-style: normal;
+}
+
+pre, code, kbd, tt, samp, tt {
+	font-family: "andale mono", monospace;
+}
+
+pre {
+	border-top: 1px solid #DDD;
+	border-bottom: 1px solid #DDD;
+	color: #999;
+	background-color: white;
+	padding: 1em;
+}
+
+ins {
+	text-decoration: underline;
+}
+
+del {
+	text-decoration: line-through;
+}
+
+.small-caps {
+	text-transform: lowercase;
+	font-variant: small-caps;
+}
+
+/* @end */
+
+/* @end */
+
+/* @group Helper styles */
+
+.nowrap {
+	white-space: nowrap;
+	display: block;
+}
+
+/* @group Validation */
+
+.error {
+	color: red;
+}
+.notice {
+	color: green;
+	background-color: white;
+	padding: 0.5em 1em;
+}
+
+/* @end */
+
+/* @group Subscribe */
+form#signup {
+	margin: 0;
+	padding: 0;
+}
+form#signup input{
+	position: relative;
+	top: -5px;
+}
+form#signup input#contact-email {
+	top: -15px;
+	margin-right: 14px;
+	padding: 0.3em 0.5em;
+	font-weight: bold;
+	color: #666;
+	width: 20em;
+}
+form#signup p {
+	font-size: 0.8em;
+	margin-top: 0em ;
+}
+/* @end */
+
+/* @group Schedule */
+
+.vcalendar {
+	width: 100%;
+	border: none;
+}
+.vcalendar tbody {
+	border: none;
+}
+.vcalendar tr:hover {
+	background-color: #E6F5CF;
+}
+.vcalendar th,
+.vcalendar td {
+	border-bottom: 1px solid #DDDDDD;
+	border-top: none;
+	font-weight: normal;
+}
+.vcalender td.speakers {
+	width: 10em;
+}
+.vcalendar a.summary:link, 
+.vcalendar a.summary:visited, 
+.vcalendar a.summary:hover, 
+.vcalendar a.summary:active, 
+.vcalendar a.summary:focus {
+	font-weight: bold;
+}
+.vcalendar .stopper td, 
+.vcalendar .stopper th {
+	color: #DDDDDD;
+	padding-bottom: 1em;
+}
+p.heart {
+	padding-left: 10px;
+	background-position: 0 0.3em;
+	background-repeat: no-repeat;
+	background-image: url(http://dconstruct.s3.amazonaws.com/2008/img/heart.gif);
+}
+span.heart {
+	padding-right: 10px;
+	background-position: right top;
+	background-repeat: no-repeat;
+	background-image: url(http://dconstruct.s3.amazonaws.com/2008/img/heart.gif);
+}
+span.thanksto{
+	display:block;
+}
+td.speakers span{
+	white-space:nowrap;
+} /* so Matt & Matt are on one line */
+
+/* @end */
+
+/* @group Speakers */
+
+ul.speakers {
+	background:#fff url(http://dconstruct.s3.amazonaws.com/2008/img/speakers/bg.jpg) 0 0 no-repeat;
+	width:570px;
+	/*height:465px;*/
+	height: 415px;
+	padding:0;	
+	margin:-4px 0 70px 0;
+	position: relative;
+	left: -10px;
+}
+ul.speakers li {
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+ul.speakers li a:link,
+ul.speakers li a:visited,
+ul.speakers li a:hover,
+ul.speakers li a:active,
+ul.speakers li a:focus {
+	width:570px;
+	height:50px;
+	display:block;
+	text-indent:-9999px;
+	background-image: url(http://dconstruct.s3.amazonaws.com/2008/img/speakers/big.png);
+	background-repeat: no-repeat;
+}
+ul.speakers li a.speak9:link, 
+ul.speakers li a.speak9:visited, 
+ul.speakers li a.speak9:hover, 
+ul.speakers li a.speak9:active, 
+ul.speakers li a.speak9:focus {
+	height: 65px; /* To account for Tantek */ 
+}
+
+ul.speakers li a:link,
+ul.speakers li a:visited {
+	background-color: #D3D3D3;
+}
+ul.speakers li a:hover,
+ul.speakers li a:active,
+ul.speakers li a:focus {
+	background-color: transparent;
+}
+
+ul li a.speak0{ background-position: 0 0 }
+ul li a.speak1{ background-position: 0 0 }
+ul li a.speak2{ background-position: 0 -50px }
+ul li a.speak3{ background-position: 0 -100px }
+ul li a.speak4{ background-position: 0 -150px }
+ul li a.speak5{ background-position: 0 -200px }
+ul li a.speak6{ background-position: 0 -250px }
+ul li a.speak7{ background-position: 0 -300px}
+ul li a.speak8{ background-position: 0 -350px }
+ul li a.speak9{ background-position: 0 -400px }
+
+/* @group Speakers as secondary nav */
+
+.secondary ul.speakers {
+	background:#fff url(http://dconstruct.s3.amazonaws.com/2008/img/speakers/bg.jpg) 0 0 no-repeat;
+	width:100%;
+	overflow: hidden;
+	/*height:275px;*/
+	height:245px;
+	padding:0;	
+	margin:0.3em 0 0 0;
+	position: static;
+}
+
+.secondary ul.speakers h2 {
+	margin: 0;
+}
+.secondary ul.speakers li a:link,
+.secondary ul.speakers li a:visited,
+.secondary ul.speakers li a:hover,
+.secondary ul.speakers li a:active,
+.secondary ul.speakers li a:focus {
+	width:400px;
+	height:30px;
+	background-image: url(http://dconstruct.s3.amazonaws.com/2008/img/speakers/small.png);
+}
+.secondary ul li a.speak9:link, 
+.secondary ul li a.speak9:visited, 
+.secondary ul li a.speak9:hover, 
+.secondary ul li a.speak9:active, 
+.secondary ul li a.speak9:focus{
+	height: 35px; /* To account for Tantek */ 
+}
+.secondary ul li a.speak0{ background-position: -18px 0 }
+.secondary ul li a.speak1{ background-position: -18px 0 }
+.secondary ul li a.speak2{ background-position: -18px -30px }
+.secondary ul li a.speak3{ background-position: -18px -60px }
+.secondary ul li a.speak4{ background-position: -18px -90px }
+.secondary ul li a.speak5{ background-position: -18px -120px }
+.secondary ul li a.speak6{ background-position: -18px -150px }
+.secondary ul li a.speak7{ background-position: -18px -180px}
+.secondary ul li a.speak8{ background-position: -18px -210px }
+.secondary ul li a.speak9{ background-position: -18px -240px }
+
+.secondary ul.speakers li h2 a:link,
+.secondary ul.speakers li h2 a:visited,
+.secondary ul.speakers li h2 a:hover,
+.secondary ul.speakers li h2 a:active,
+.secondary ul.speakers li h2 a:focus {
+	background-color: #ABD825;
+}
+
+.secondary ul li h2 a.speak0{ background-position: -418px 0 }
+.secondary ul li h2 a.speak1{ background-position: -418px 0 }
+.secondary ul li h2 a.speak2{ background-position: -418px -30px }
+.secondary ul li h2 a.speak3{ background-position: -418px -60px }
+.secondary ul li h2 a.speak4{ background-position: -418px -90px }
+.secondary ul li h2 a.speak5{ background-position: -418px -120px }
+.secondary ul li h2 a.speak6{ background-position: -418px -150px }
+.secondary ul li h2 a.speak7{ background-position: -418px -180px}
+.secondary ul li h2 a.speak8{ background-position: -418px -210px }
+.secondary ul li h2 a.speak9{ background-position: -418px -240px }
+
+
+/* @end */
+
+/* @end */
+
+/* @group Secondary specific */
+
+p.intro {
+	font-size: 1.15em;
+	font-weight: bold;
+	line-height: 1.15;
+	width: 15em;
+}
+
+
+/* @end */
+
+/* @group Sponsors */
+
+a span{
+ font-size:75%;
+ font-weight:normal;
+}
+ul.sponsors, ul.sponsorsbig {
+	margin: 2em 0 0 0;
+	padding: 0;
+	width: 100%;
+	overflow: hidden;
+}
+
+ul.sponsors li{
+	width: 33%;
+	height: 7em;
+	float: left;
+	text-align: center;
+	line-height: 7em;
+}
+ul.sponsorsbig li{
+	width: 50%;
+	height: 10em;
+	float: left;
+	text-align: center;
+	line-height: 7em;
+}
+
+ul.sponsors img, ul.sponsorsbig img {
+	max-width: 100%;
+}
+ul.sponsors li a:link,
+ul.sponsors li a:visited,
+ul.sponsors li a:hover,
+ul.sponsors li a:active,
+ul.sponsors li a:focus,
+ul.sponsorsbig li a:link,
+ul.sponsorsbig li a:visited,
+ul.sponsorsbig li a:hover,
+ul.sponsorsbig li a:active,
+ul.sponsorsbig li a:focus {
+	margin: auto;
+	vertical-align: middle;
+}
+/* @end */
+
+/* @group Slideshow */
+
+.slideshow {
+	position: relative;
+	height: 333px;
+}
+.slideshow img#waiting {
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 1;
+}
+.slideshow img#showing {
+	position: relative;
+	z-index: 2;
+}
+
+/* @end */
+
+/* @group transcript
+ */
+
+.transcript_credit {
+	font-style: italic;	
+}
+
+.transcript_credit img {
+	vertical-align: middle;
+	margin-right: 1.5em;
+}
+
+.transcript blockquote {
+	font-style: normal;
+	margin: 0 0 2.25em 0; /* 36px */
+}
+
+.transcript blockquote cite {
+	font-style: italic;
+}
+
+
+
+/* @end */
+
+/* @end */
+
+/* @group Page structure */
+
+#page-container {
+    background-image: url(http://dconstruct.s3.amazonaws.com/2008/img/header/greenstripe.gif);
+	padding: 35px 0 20px 20px;
+	margin: 0 30px 0 0;
+	background-position: top right;
+	background-repeat: no-repeat;
+	/*width: 60em;*/
+}
+
+/* @group header */
+
+#header {
+	width: 100%;
+	overflow: hidden;
+	margin-bottom: 3em;
+	min-height: 10em;
+}
+#header .info {
+	width: 19em;
+	float: left;
+	position: relative;
+	padding-top: 0.2em;
+}
+#header .info p {	
+	font-size: 0.8em;
+	color: #A6A6A6;
+	margin: 0;
+	font-weight: bold;
+	position: absolute;
+	top: 3px;
+	left: 0;
+}
+#header .info p a:link,
+#header .info p a:visited {
+	color: #A6A6A6;
+}
+#header .info p a:hover,
+#header .info p a:active, 
+#header .info p a:active {
+	color: #2779DC;
+	text-decoration: none;
+}
+#header h1,
+#header h2 {
+	margin: 0;
+	font-size: 1em;
+}
+#header h1 {
+	margin-bottom: 0.9em;
+}
+
+#header img {
+	max-width: 19em;
+}
+
+/* @end */
+
+/* @group Navigation */
+
+ul.nav {
+	margin: 4.7em 0 1em 25em;
+	padding: 0 0 1.6em 0;
+	border-bottom: 1px solid #C3C3C3;
+	/*width: 39em;*/
+}
+ul.nav li {
+	display: inline;
+	margin: 0 1.6em 0 0;
+}
+ul.nav li a:link,
+ul.nav li a:visited {
+	font-weight: bold;
+	text-decoration: none;
+	color: #2779DC;
+}
+ul.nav li a:hover,
+ul.nav li a:active,
+ul.nav li a:focus {
+	font-weight: bold;
+	text-decoration: none;
+	color: #72951A;
+}
+.home ul.nav li.home a:link,
+.home ul.nav li.home a:visited, 
+.news ul.nav li.news a:link,
+.news ul.nav li.news a:visited,
+.schedule ul.nav li.schedule a:link,
+.schedule ul.nav li.schedule a:visited, 
+.workshops ul.nav li.workshops a:link,
+.workshops ul.nav li.workshops a:visited, 
+.sponsors ul.nav li.sponsors a:link,
+.sponsors ul.nav li.sponsors a:visited, 
+.location ul.nav li.location a:link,
+.location ul.nav li.location a:visited, 
+.podcasts ul.nav li.podcasts a:link,
+.podcasts ul.nav li.podcasts a:visited,
+.buttons ul.nav li.buttons a:link,
+.buttons ul.nav li.buttons a:visited, 
+.buttons ul.nav li.buttons a:link,
+.buttons ul.nav li.buttons a:visited {
+	color: #A9A9A9;
+}
+/* @end */
+
+/* @group Main Containers */
+
+.container {
+	position: relative;
+	margin-bottom: 4em;
+}
+.clear {
+	/* clear floats */
+	width: 100%;
+	overflow: hidden;
+}
+
+/* @group Primary */
+
+.primary {
+	margin-left: 23.5em;
+	/*width: 36em;*/
+}
+.primary p {
+	line-height: 1.5;
+}
+.primary h2,
+.primary h3 {
+	color: #ABD825;
+	font-size: 3.5em;
+	margin: 0 0 0.8em 0;
+	line-height: 0.9;
+}
+.primary h4 {
+	color: #ABD825;
+	font-size: 2em;
+	margin: 0 0 0.5em 0;
+	line-height: 1;
+}
+.primary h5 {
+	text-transform: uppercase;
+	color: #A6A6A6;
+	margin: 0 0 0.5em 0;
+}
+/*.primary img {
+	max-width: 100%;
+}*/
+
+/* @end */
+
+/* @group Secondary */
+
+.secondary {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 23em;
+}
+
+.secondary a:link,
+.secondary a:visited,
+.secondary a:hover,
+.secondary a:active,
+.secondary a:focus {
+	font-weight: bold;
+}
+
+.secondary h2,
+.secondary h3 {
+	text-transform: uppercase;
+	color: #A6A6A6;
+	margin-top: 0;
+}
+
+/* @end */
+
+
+/* @end */
+
+
+/* @group Footer */
+
+#footer {
+	background-color: white;
+	padding: 4.5em 0 5em 20px;
+	/*width: 60em;*/
+}
+#footer p {
+	margin: 0px 30px 0.5em 0;
+}
+#footer img{
+	margin: -3px 0 0 0;
+}
+.tagline {
+	color: #93B312;
+	font-weight: bold;
+}
+
+/* @group Aux & Nav */
+
+.aux-nav {
+	margin-top: 3.5em;
+}
+
+.aux-nav p,
+.aux-nav ul {
+	color: #A9A9A9;
+	font-weight: bold;
+	font-size: 0.8em;
+}
+#footer ul {
+	margin: 0;
+	padding: 0;
+}
+#footer ul li {
+	display: inline;
+	margin-right: 2em;
+}
+#footer a:link,
+#footer a:visited {
+	color: #A9A9A9;
+}
+#footer a:hover,
+#footer a:active,
+#footer a:focus {
+	color: #2779DC;
+	text-decoration: none;
+}
+
+/* @end */
+
+/* @end */
+
+/* @end */
+
+/* @group Overrides */
+
+/* @group Speaker info */
+
+.speaker-info {
+	width: 271px;
+	margin-left: 30px;
+	min-height: 311px;
+	float: right;
+	font-size: 0.8em;
+	margin-bottom: 2em;
+}
+.speaker-info p {
+	font-weight: bold;
+	margin: 0;
+	padding: 0.5em 0 0 0;
+}
+.speaker-info ul {
+	margin: 1em 0 0 0;
+	padding: 0;
+	width: 100%;
+	overflow: hidden;
+}
+.speaker-info ul li{
+	margin: 0 2.5% 0em 0;
+	width: 45%;
+	padding: 0;
+	float: left;
+}
+.speaker-info a {
+	display: block;
+	padding: 0.4em 0 0.2em 25px;
+	background-position: left center;
+	background-repeat: no-repeat;
+	white-space: nowrap;
+	min-height: 20px;
+}
+
+.speaker-info img {
+	width: 271px;
+	height: 271px;
+	display: block;
+	border: 1px solid white;
+	max-width: 100%;
+	margin-bottom:1em;
+}
+.speaker-info a.pownce {
+	background-image: url(http://dconstruct.s3.amazonaws.com/2008/img/sites/Pownce.gif);
+}
+
+.speaker-info a.facebook {
+	background-image: url(http://dconstruct.s3.amazonaws.com/2008/img/sites/Facebook.gif);
+}
+
+.speaker-info a.digg {
+	background-image: url(http://dconstruct.s3.amazonaws.com/2008/img/sites/Digg.gif);
+}
+
+.speaker-info a.vimeo {
+	background-image: url(http://dconstruct.s3.amazonaws.com/2008/img/sites/Vimeo.gif);
+}
+
+.speaker-info a.flickr {
+	background-image: url(http://dconstruct.s3.amazonaws.com/2008/img/sites/Flickr.gif);
+}
+
+.speaker-info a.upcoming {
+	background-image: url(http://dconstruct.s3.amazonaws.com/2008/img/sites/Upcoming.gif);
+}
+
+.speaker-info a.twitter {
+	background-image: url(http://dconstruct.s3.amazonaws.com/2008/img/sites/twitter.gif);
+}
+
+.speaker-info a.dopplr {
+	background-image: url(http://dconstruct.s3.amazonaws.com/2008/img/sites/Dopplr.gif);
+}
+
+.speaker-info a.lastfm {
+	background-image: url(http://dconstruct.s3.amazonaws.com/2008/img/sites/lastfm.gif);
+}
+
+.speaker-info a.linkedin {
+	background-image: url(http://dconstruct.s3.amazonaws.com/2008/img/sites/linkedin.gif);
+}
+
+.talk-desc h2, 
+.talk-desc h3 {
+	max-width: 450px;
+	/* image replaced*/
+}
+.talk-desc p {
+	padding-right: 301px;
+}
+
+/* @end */
+
+/* @group Location page */
+.hreview .item {
+	font-weight: bold;
+	margin: 0;
+}
+.vcard .org {
+	font-weight: bold;
+}
+.secondary .vcard {
+	margin-bottom: 1.5em;
+}
+.locations p.vcard {
+	margin: 1.5em 0 0 0;
+}
+.locations p.summary{
+	margin: 0;
+	color: #999;
+}
+.loctitle{
+ font-weight:bold;
+ margin:0;
+}
+#places-map { width: 100%; height: 400px;
+margin-bottom: 2em; border: 1px solid white; }
+
+.current-vcard {
+	background-color: #E6F5CF
+}
+/* @end */
+/* @group Buttons page */
+
+.thecode textarea{
+	font-family:monospace;
+	font-size:80%;
+	padding:5px;
+	width:35em;
+	height:9em;
+	border-width: 1px 0;
+	border-style: solid;
+}
+.thecode{
+	float: left;
+}
+
+.thecode a {
+	margin-right: 1em;
+}
+.top {
+	float:left;
+	clear: both;
+}
+.buttons h2 span{
+	display:block;
+	font-size:60%;
+}
+
+/* @end */
+
+.leftnarrow{
+	width: 18em;
+}
+.leftnarrow a:link,
+.leftnarrow a:visited,
+.leftnarrow a:hover,
+.leftnarrow a:active,
+.leftnarrow a:focus{
+	font-weight:normal;
+}
+
+/* @group Workshops */
+.time{
+	white-space:nowrap;
+}
+.focus{
+	width:16em;
+}
+.speakers a{
+	white-space:nowrap;
+}
+
+.bookbut{
+	width:59px;
+}
+.bookbut a{
+	display:block;
+	margin:0.2em 0 0 0;
+}
+
+body.workshops .vevent td .book {
+	margin:0.4em 0 0 0;
+	display: block;
+	clear: both;
+	cursor: pointer;
+	width: ;
+}
+body.workshops .vevent td.speakers{
+	width:8em;
+}
+
+
+/* @end */
+/* @end */

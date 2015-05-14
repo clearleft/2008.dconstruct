@@ -1,0 +1,163 @@
+ul.nav {
+	margin-left: 28em;
+	/*width: 30em;*/
+}
+.container,
+.secondary {
+	zoom: 1;
+}
+.primary {
+	margin-left: 26.5em;
+	zoom: 1;
+} 
+ul.speakers li a:link,
+ul.speakers li a:visited,
+ul.speakers li a:hover,
+ul.speakers li a:active,
+ul.speakers li a:focus {
+	background-image: url(http://dconstruct.s3.amazonaws.com/2008/img/speakers/big-ie6.jpg);
+}
+
+/* @group Speakers */
+
+ul li a.speak0{ background-position: 0 0 }
+ul li a.speak1{ background-position: 0 0 }
+ul li a.speak2{ background-position: 0 -50px }
+ul li a.speak3{ background-position: 0 -100px }
+ul li a.speak4{ background-position: 0 -150px }
+ul li a.speak5{ background-position: 0 -200px }
+ul li a.speak6{ background-position: 0 -250px }
+ul li a.speak7{ background-position: 0 -300px}
+ul li a.speak8{ background-position: 0 -350px }
+ul li a.speak9{ background-position: 0 -400px }
+
+ul li a.speak0:hover, 
+ul li a.speak0:focus,
+ul li a.speak0:active { background-position: -570px 0 }
+ul li a.speak1:hover, 
+ul li a.speak1:focus,
+ul li a.speak1:active { background-position: -570px 0 }
+ul li a.speak2:hover, 
+ul li a.speak2:focus,
+ul li a.speak2:active { background-position: -570px -50px }
+ul li a.speak3:hover, 
+ul li a.speak3:focus,
+ul li a.speak3:active { background-position: -570px -100px }
+ul li a.speak4:hover, 
+ul li a.speak4:focus,
+ul li a.speak4:active { background-position: -570px -150px }
+ul li a.speak5:hover, 
+ul li a.speak5:focus,
+ul li a.speak5:active { background-position: -570px -200px }
+ul li a.speak6:hover, 
+ul li a.speak6:focus,
+ul li a.speak6:active { background-position: -570px -250px }
+ul li a.speak7:hover, 
+ul li a.speak7:focus,
+ul li a.speak7:active { background-position: -570px -300px}
+ul li a.speak8:hover, 
+ul li a.speak8:focus,
+ul li a.speak8:active { background-position: -570px -350px }
+ul li a.speak9:hover, 
+ul li a.speak0:focus,
+ul li a.speak0:active { background-position: -570px -400px }
+
+/* @group Scondary speakers */
+
+.secondary ul.speakers li a:link,
+.secondary ul.speakers li a:visited,
+.secondary ul.speakers li a:hover,
+.secondary ul.speakers li a:active,
+.secondary ul.speakers li a:focus {
+	background-image: url(http://dconstruct.s3.amazonaws.com/2008/img/speakers/small-ie6.gif);
+	zoom: 1;
+	background-color: transparent;
+}
+.secondary ul li a.speak0:hover,
+.secondary ul li a.speak0:focus,
+.secondary ul li a.speak0:active { background-position: -418px 0 }
+.secondary ul li a.speak1:hover,
+.secondary ul li a.speak1:focus,
+.secondary ul li a.speak1:active { background-position: -300px 0 }
+.secondary ul li a.speak2:hover,
+.secondary ul li a.speak2:focus,
+.secondary ul li a.speak2:active { background-position: -418px -30px }
+.secondary ul li a.speak3:hover,
+.secondary ul li a.speak3:focus, 
+.secondary ul li a.speak3:active { background-position: -418px -60px }
+.secondary ul li a.speak4:hover,
+.secondary ul li a.speak4:focus,
+.secondary ul li a.speak4:active { background-position: -418px -90px }
+.secondary ul li a.speak5:hover, 
+.secondary ul li a.speak5:focus, 
+.secondary ul li a.speak5:active{ background-position: -418px -120px }
+.secondary ul li a.speak6:hover,
+.secondary ul li a.speak6:focus,
+.secondary ul li a.speak6:active { background-position: -418px -150px }
+.secondary ul li a.speak7:hover,
+.secondary ul li a.speak7:focus,
+.secondary ul li a.speak7:active { background-position: -418px -180px}
+.secondary ul li a.speak8:hover,
+.secondary ul li a.speak8:focus,
+.secondary ul li a.speak8:active{ background-position: -418px -210px }
+.secondary ul li a.speak9:hover,
+.secondary ul li a.speak9:focus, 
+.secondary ul li a.speak9:active{ background-position: -418px -240px }
+
+
+
+.secondary ul li h2 a.speak0:link,
+.secondary ul li h2 a.speak0:visited,
+.secondary ul li h2 a.speak0:hover,
+.secondary ul li h2 a.speak0:focus,
+.secondary ul li h2 a.speak0:active { background-position: -818px 0 }
+.secondary ul li h2 a.speak1:link,
+.secondary ul li h2 a.speak1:visited,
+.secondary ul li h2 a.speak1:hover,
+.secondary ul li h2 a.speak1:focus,
+.secondary ul li h2 a.speak1:active { background-position: -818px 0 }
+.secondary ul li h2 a.speak2:link,
+.secondary ul li h2 a.speak2:visited,
+.secondary ul li h2 a.speak2:hover,
+.secondary ul li h2 a.speak2:focus,
+.secondary ul li h2 a.speak2:active { background-position: -818px -30px }
+.secondary ul li h2 a.speak3:link,
+.secondary ul li h2 a.speak3:visited,
+.secondary ul li h2 a.speak3:hover,
+.secondary ul li h2 a.speak3:focus, 
+.secondary ul li h2 a.speak3:active { background-position: -818px -60px }
+.secondary ul li h2 a.speak4:link,
+.secondary ul li h2 a.speak4:visited,
+.secondary ul li h2 a.speak4:hover,
+.secondary ul li h2 a.speak4:focus,
+.secondary ul li h2 a.speak4:active { background-position: -818px -90px }
+.secondary ul li h2 a.speak5:link,
+.secondary ul li h2 a.speak5:visited,
+.secondary ul li h2 a.speak5:hover, 
+.secondary ul li h2 a.speak5:focus, 
+.secondary ul li h2 a.speak5:active{ background-position: -818px -120px }
+.secondary ul li h2 a.speak6:link,
+.secondary ul li h2 a.speak6:visited,
+.secondary ul li h2 a.speak6:hover,
+.secondary ul li h2 a.speak6:focus,
+.secondary ul li h2 a.speak6:active { background-position: -818px -150px }
+.secondary ul li h2 a.speak7:link,
+.secondary ul li h2 a.speak7:visited,
+.secondary ul li h2 a.speak7:hover,
+.secondary ul li h2 a.speak7:focus,
+.secondary ul li h2 a.speak7:active { background-position: -818px -180px}
+.secondary ul li h2 a.speak8:link,
+.secondary ul li h2 a.speak8:visited,
+.secondary ul li h2 a.speak8:hover,
+.secondary ul li h2 a.speak8:focus,
+.secondary ul li h2 a.speak8:active{ background-position: -818px -210px }
+.secondary ul li h2 a.speak9:link,
+.secondary ul li h2 a.speak9:visited,
+.secondary ul li h2 a.speak9:hover,
+.secondary ul li h2 a.speak9:focus, 
+.secondary ul li h2 a.speak9:active{ background-position: -818px -240px }
+
+
+/* @end */
+
+/* @end */

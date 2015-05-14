@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<atom:link href="http://2008.dconstruct.org/podcast/index.xml" rel="self" type="application/rss+xml" />
+		<title>dConstruct 2008</title>
+		<link>http://2008.dconstruct.org/podcast/</link>
+		<language>en</language>
+		<pubDate>Wed, 10 Sep 2008 15:30:00 GMT</pubDate>
+		<lastBuildDate>Mon, 22 Sep 2008 19:00:00 GMT</lastBuildDate>
+		<itunes:subtitle>The podcast of the conference</itunes:subtitle>
+		<itunes:author>Clearleft</itunes:author>
+		<itunes:summary>dConstruct is an affordable, one-day conference aimed at those building the latest generation of web-based applications. The theme for this year's conference is Designing the Social Web.</itunes:summary>
+		<description>dConstruct is an affordable, one-day conference aimed at those building the latest generation of web-based applications. The theme for this year's conference is Designing the Social Web.</description>
+		<itunes:owner>
+			<itunes:name>Jeremy Keith</itunes:name>
+			<itunes:email>jeremy@adactio.com</itunes:email>
+		</itunes:owner>
+		<itunes:image href="http://dconstruct.s3.amazonaws.com/buttons/dConstruct08-125X125-green.gif" />
+		<itunes:category text="Technology">
+			<itunes:category text="Tech News" />
+		</itunes:category>
+		<itunes:explicit>no</itunes:explicit>
+		<item>
+			<title>Jeremy Keith</title>
+			<itunes:author>Clearleft</itunes:author>
+			<itunes:subtitle>The System Of The World</itunes:subtitle>
+			<itunes:summary>We may regard the present state of the universe as the effect of the past and the cause of the future. An intellect which at any given moment knew all of the forces that animate nature and the mutual positions of the beings that compose it, if this intellect were vast enough to submit the data to analysis, could condense into a single formula the movement of the greatest bodies of the universe and that of the lightest atom; for such an intellect nothing could be uncertain and the future just like the past would be present before its eyes.
+				
+— Pierre Simon de Laplace</itunes:summary>
+			<description>We may regard the present state of the universe as the effect of the past and the cause of the future. An intellect which at any given moment knew all of the forces that animate nature and the mutual positions of the beings that compose it, if this intellect were vast enough to submit the data to analysis, could condense into a single formula the movement of the greatest bodies of the universe and that of the lightest atom; for such an intellect nothing could be uncertain and the future just like the past would be present before its eyes.
+				
+— Pierre Simon de Laplace</description>
+			<enclosure url="http://dconstruct.s3.amazonaws.com/2008/podcast/dConstruct2008-Keith.mp3" length="13562699" type="audio/mpeg" />
+			<guid>http://dconstruct.s3.amazonaws.com/2008/podcast/dConstruct2008-Keith.mp3</guid>
+			<pubDate>Tue, 06 Jan 2009 22:30:00 GMT</pubDate>
+			<itunes:duration>38:08</itunes:duration>
+			<itunes:keywords>dconstruct,conference,brighton,jeremy keith,networks,network theory,small worlds,social networks,predetermination,philosophy,free will</itunes:keywords>
+		</item>
+		<item>
+			<title>Matt Biddulph and Matt Jones</title>
+			<itunes:author>Clearleft</itunes:author>
+			<itunes:subtitle>Designing for the Coral Reef</itunes:subtitle>
+			<itunes:summary>Can you build a successful website that nobody ever has to visit?
+
+Feeds, APIs, widgets, Facebook apps, mobile and instant messaging mean that there are many ways for users to interact with a service without them having to visit the main website. When we first talked about building Dopplr, we wanted give users more choice about how they get their information into and out of the application. In this talk, we’ll describe how the site at dopplr.com is just one manifestation of a many-headed internet service. We’ll talk about how this affects the user interface design and the data modeling, and how it strengthens the relationship between designer and developer.</itunes:summary>
+			<description>Can you build a successful website that nobody ever has to visit?
+
+Feeds, APIs, widgets, Facebook apps, mobile and instant messaging mean that there are many ways for users to interact with a service without them having to visit the main website. When we first talked about building Dopplr, we wanted give users more choice about how they get their information into and out of the application. In this talk, we’ll describe how the site at dopplr.com is just one manifestation of a many-headed internet service. We’ll talk about how this affects the user interface design and the data modeling, and how it strengthens the relationship between designer and developer.</description>
+			<enclosure url="http://dconstruct.s3.amazonaws.com/2008/podcast/dConstruct2008-Biddulph-Jones.mp3" length="18297673" type="audio/mpeg" />
+			<guid>http://dconstruct.s3.amazonaws.com/2008/podcast/dConstruct2008-Biddulph-Jones.mp3</guid>
+			<pubDate>Sun, 02 Nov 2008 23:00:00 GMT</pubDate>
+			<itunes:duration>50:03</itunes:duration>
+			<itunes:keywords>dconstruct,conference,brighton,web design,matt biddulph,matt jones,dopplr,serendipity</itunes:keywords>
+		</item>
+		<item>
+			<title>Tantek &#199;elik</title>
+			<itunes:author>Clearleft</itunes:author>
+			<itunes:subtitle>Social Network Portability</itunes:subtitle>
+			<itunes:summary>Why is it that every single social network community site makes you re-enter all your personal profile info (name, email, birthday, URL etc.) and re-add all your friends? With new social networks being launched nearly every week, the problem of social network fatigue has gone from being a geeky early adopter problem to being much more widespread.
+
+This talk will discuss the problems and the goals of social network portability, as well as looking at the latest open data formats, techniques and recipes that sites are using to connect to the open social web.</itunes:summary>
+			<description>Why is it that every single social network community site makes you re-enter all your personal profile info (name, email, birthday, URL etc.) and re-add all your friends? With new social networks being launched nearly every week, the problem of social network fatigue has gone from being a geeky early adopter problem to being much more widespread.
+
+This talk will discuss the problems and the goals of social network portability, as well as looking at the latest open data formats, techniques and recipes that sites are using to connect to the open social web.</description>
+			<enclosure url="http://dconstruct.s3.amazonaws.com/2008/podcast/dConstruct2008-Celik.mp3" length="16470107" type="audio/mpeg" />
+			<guid>http://dconstruct.s3.amazonaws.com/2008/podcast/dConstruct2008-Celik.mp3</guid>
+			<pubDate>Tue, 28 Oct 2008 23:45:00 GMT</pubDate>
+			<itunes:duration>44:58</itunes:duration>
+			<itunes:keywords>dconstruct,conference,brighton,web design,tantek,microformats,social network portability,xfn,hcard,social graph</itunes:keywords>
+		</item>
+		<item>
+			<title>Daniel Burka</title>
+			<itunes:author>Clearleft</itunes:author>
+			<itunes:subtitle>Designing for Interaction</itunes:subtitle>
+			<itunes:summary>Creating a social site sounds great until you get around to actually designing that ambiguous ‘social’ part that’s central to its success. Enabling and encouraging your community to participate is a complex challenge that only gets more sophisticated as the populace on your site grows. In many critical areas, you’ll come up against the curious juxtapositions of designing social interactions. Encouraging positive activities while discouraging negative behaviors, satisfying power users while catering to lurkers, ensuring privacy while fostering openness, and creating pathways while remaining open to unexpected developments, are just some of the hurdles you’re likely to face as you design your site.
+
+Using case studies from Digg, Pownce, and other social communities, we’ll examine how to balance these and other concerns from a user interface design perspective. In particular, mistakes will be analyzed and success stories will be dissected to help explain how successful social interactions can be created and pitfalls can be avoided.</itunes:summary>
+			<description>Creating a social site sounds great until you get around to actually designing that ambiguous ‘social’ part that’s central to its success. Enabling and encouraging your community to participate is a complex challenge that only gets more sophisticated as the populace on your site grows. In many critical areas, you’ll come up against the curious juxtapositions of designing social interactions. Encouraging positive activities while discouraging negative behaviors, satisfying power users while catering to lurkers, ensuring privacy while fostering openness, and creating pathways while remaining open to unexpected developments, are just some of the hurdles you’re likely to face as you design your site.
+
+Using case studies from Digg, Pownce, and other social communities, we’ll examine how to balance these and other concerns from a user interface design perspective. In particular, mistakes will be analyzed and success stories will be dissected to help explain how successful social interactions can be created and pitfalls can be avoided.</description>
+			<enclosure url="http://dconstruct.s3.amazonaws.com/2008/podcast/dConstruct2008-Burka.mp3" length="14483142" type="audio/mpeg" />
+			<guid>http://dconstruct.s3.amazonaws.com/2008/podcast/dConstruct2008-Burka.mp3</guid>
+			<pubDate>Tue, 28 Oct 2008 23:40:00 GMT</pubDate>
+			<itunes:duration>39:36</itunes:duration>
+			<itunes:keywords>dconstruct,conference,brighton,web design,daniel burka,digg,pownce,interaction design</itunes:keywords>
+		</item>
+		<item>
+			<title>Joshua Porter</title>
+			<itunes:author>Clearleft</itunes:author>
+			<itunes:subtitle>Leveraging Cognitive Bias in Social Design</itunes:subtitle>
+			<itunes:summary>Humans are not perfectly rational. We’re full of biases that colour the way we think and act. Smart designers can use these biases in their favour, to attract and convince people that their software is worth using. In this talk Josh will share some insights into how to use cognitive bias to get people signing up for and using your software.</itunes:summary>
+			<description>Humans are not perfectly rational. We’re full of biases that colour the way we think and act. Smart designers can use these biases in their favour, to attract and convince people that their software is worth using. In this talk Josh will share some insights into how to use cognitive bias to get people signing up for and using your software.</description>
+			<enclosure url="http://dconstruct.s3.amazonaws.com/2008/podcast/dConstruct2008-Porter.mp3" length="15671124" type="audio/mpeg" />
+			<guid>http://dconstruct.s3.amazonaws.com/2008/podcast/dConstruct2008-Porter.mp3</guid>
+			<pubDate>Tue, 7 Oct 2008 11:45:00 GMT</pubDate>
+			<itunes:duration>42:58</itunes:duration>
+			<itunes:keywords>dconstruct,conference,brighton,web design,joshua porter,psychology,social web</itunes:keywords>
+		</item>
+		<item>
+			<title>Aleks Krotoski</title>
+			<itunes:author>Clearleft</itunes:author>
+			<itunes:subtitle>Playing the Web: how gaming makes the internet (and the world) a better place</itunes:subtitle>
+			<itunes:summary>The games industry has cracked it: the holy grail of stickiness. Games’ inherent playfulness has built Pong from a bedroom coder’s conundrum into a multi-billion dollar industry. But ask a game designer about the human-computer interaction or the user interface design in their AAA title, and they’ll think you’ve gone mad.
+
+Is successful playful design a magic art kept within game development studio cabals, or is it something that people on the outside can apply - to great returns - to their social media?</itunes:summary>
+			<description>The games industry has cracked it: the holy grail of stickiness. Games’ inherent playfulness has built Pong from a bedroom coder’s conundrum into a multi-billion dollar industry. But ask a game designer about the human-computer interaction or the user interface design in their AAA title, and they’ll think you’ve gone mad.
+
+Is successful playful design a magic art kept within game development studio cabals, or is it something that people on the outside can apply - to great returns - to their social media?</description>
+			<enclosure url="http://dconstruct.s3.amazonaws.com/2008/podcast/dConstruct2008-Krotoski.mp3" length="15196552" type="audio/mpeg" />
+			<guid>http://dconstruct.s3.amazonaws.com/2008/podcast/dConstruct2008-Krotoski.mp3</guid>
+			<pubDate>Mon, 29 Sep 2008 15:00:00 GMT</pubDate>
+			<itunes:duration>41:29</itunes:duration>
+			<itunes:keywords>dconstruct,conference,brighton,web design,aleks krotoski,gaming,games,play</itunes:keywords>
+		</item>
+		<item>
+			<title>Steven Johnson</title>
+			<itunes:author>Clearleft</itunes:author>
+			<itunes:subtitle>The Urban Web</itunes:subtitle>
+			<itunes:summary>Drawing on the story of disease and urban terror from his 2006 bestseller, The Ghost Map, Johnson will launch dConstruct with a keynote address on the information networks that form on the sidewalks and public spaces of urban life. He’ll examine the many ways that those social systems are migrating to the emerging platform of the geoweb. The rise of location-aware devices and increasingly mainstream geotagging presents an unique opportunity to unite the real and virtual worlds, and bring new life to the troubled newspaper industry. But that opportunity is going to require innovative new tools for navigating the geoweb, which the keynote will explore in some detail — including a first look at some new projects under development at outside.in.</itunes:summary>
+			<description>Drawing on the story of disease and urban terror from his 2006 bestseller, The Ghost Map, Johnson will launch dConstruct with a keynote address on the information networks that form on the sidewalks and public spaces of urban life. He’ll examine the many ways that those social systems are migrating to the emerging platform of the geoweb. The rise of location-aware devices and increasingly mainstream geotagging presents an unique opportunity to unite the real and virtual worlds, and bring new life to the troubled newspaper industry. But that opportunity is going to require innovative new tools for navigating the geoweb, which the keynote will explore in some detail — including a first look at some new projects under development at outside.in.</description>
+			<enclosure url="http://dconstruct.s3.amazonaws.com/2008/podcast/dConstruct2008-Johnson.mp3" length="14836509" type="audio/mpeg" />
+			<guid>http://dconstruct.s3.amazonaws.com/2008/podcast/dConstruct2008-Johnson.mp3</guid>
+			<pubDate>Mon, 22 Sep 2008 19:00:00 GMT</pubDate>
+			<itunes:duration>40:31</itunes:duration>
+			<itunes:keywords>dconstruct,conference,brighton,web design,steven johnson,ghost map,cholera,emergence,location</itunes:keywords>
+		</item>
+	</channel>
+</rss>

@@ -1,27 +1,6 @@
 <div class="container">
-	
-	<div class="secondary">
-		<h2>Get event updates by email</h2>
-	</div>
-	<div class="primary">
-		<form action="http://www.feedburner.com/fb/a/emailverifySubmit" method="post" id="signup">
-		 	<div>
-				<input id="contact-email" name="email" class="title-switch" title="your email address" value="your email address" type="text" />
-				<input name="url" value="http://feeds.feedburner.com/~e?ffid=301236" type="hidden" />
-				<input name="showEmail" value="false" type="hidden" />
-				<input name="title" value="Silverback" type="hidden" />
-				<input name="loc" value="en_US" type="hidden" />
-				<input src="/img/footer/subscribe.jpg" alt="Sign up for Clearleft event updates." type="image" />
-			</div>
 
-			<p class="credit">...or grab the <a href="http://feeds.feedburner.com/ClearleftEvents" class="feed">RSS feed</a> and follow <a href="http://twitter.com/dconstruct" class="twitter">@dConstruct</a> on Twitter.</p>
-		</form>
-	</div>
-</div>
-
-
-
-<?php 
+<?php
 	if (isset($rootlevel) && $rootlevel != '') {
 		include("includes/sponsors.inc.php");
 	} else {
@@ -32,7 +11,7 @@
 </div> <!-- closing #page-container -->
 
 <div id="footer">
-	
+
 	<div class="container vcard">
 		<div class="secondary">
 			<h2><a href="http://clearleft.com/" class="url"><img class="photo" src="http://dconstruct.s3.amazonaws.com/2008/img/footer/clearleft.gif" alt="Clearleft" /></a></h2>
@@ -60,7 +39,7 @@
 
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.min.js"></script>
 <script type="text/javascript" src="/js/global.js"></script>
-<?php 
+<?php
 	if(isset($scripts) && $scripts != '') {
 		echo $scripts;
 	}
